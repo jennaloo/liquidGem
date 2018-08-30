@@ -169,7 +169,7 @@ input::placeholder{
     width:100%;
 }
 
-i{
+#footer i{
     color:#404040;
     margin:10px;
     font-size:35px;
@@ -181,7 +181,7 @@ i{
 }
 
 .fab{
-        border-radius:50%;
+    border-radius:50%;
 }
 
 button{
@@ -196,4 +196,79 @@ button{
     left:50px;
 }
 
+
+/*Alternat navbar*/
+#alt-navbar{
+    display:none;
+}
+
+
+#alt-navbar{
+    margin-top:40px;
+}
+
+#alt-navbar img{
+    width:50px;
+    margin:10px;
+    display:inline-block;
+}
+
+#alt-navbar ul li{
+    display:inline;
+    text-transform:uppercase;
+    margin-left:5rem;
+    position:relative;
+    top:5px;
+}
+
+#alt-navbar h1{
+    position:relative;
+    display:inline-block;
+    font-size:24px;
+    margin:0;
+    top:-20px;
+    font-family: 'Sofia', cursive;
+}
+
+#alt-navbar ul{
+    float:right;
+}
+
+
+#alt-navbar hr{
+    width:98%;
+}
+
+#alt-navbar a{
+    text-decoration:none;
+    color:black;
+}
+
+#alt-navbar ul li:last-child{
+    margin-right:20px;
+}
+
+#alt-navbar .fas{
+    font-size:45px;    
+    color:pink;
+}
+
 /*You can do height and width for buttons and probably forms?*/
+
+@media (max-width:500px){
+    #workgrid img{
+        width:35%;
+    }
+    
+    #workgrid img{
+        margin-left:10%;
+    }
+
+    #navbar{
+        display:none;
+    }
+    
+    #alt-navbar{
+        display:block;
+    }
+}
