@@ -1,284 +1,293 @@
-body{
-    margin:0;
-    padding:0;
+* {
+    transition: 0.5s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #F5F5F5;
 }
 
-#navbar{
-    margin-top:40px;
+#navbar {
+    margin-top: 40px;
 }
 
-#navbar img{
-    width:50px;
-    margin:10px;
-    display:inline-block;
+#navbar img {
+    width: 50px;
+    margin: 10px;
+    display: inline-block;
 }
 
-#navbar h1{
-    position:relative;
-    display:inline-block;
-    font-size:24px;
-    margin:0;
-    top:-20px;
+#navbar h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    top: -20px;
     font-family: 'Sofia', cursive;
 }
 
-#navbar ul{
-    float:right;
+#navbar ul {
+    float: right;
 }
 
-#navbar ul li{
-    display:inline;
-    text-transform:uppercase;
-    margin-left:3rem;
-    position:relative;
-    top:5px;
+#navbar ul li {
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 3rem;
+    position: relative;
+    top: 5px;
 }
 
-#navbar ul li:last-child{
-    margin-right:20px;
+#navbar ul li:last-child {
+    margin-right: 20px;
 }
 
-#navbar ul li a:hover{
-    font-weight:500;
+#navbar ul li a:hover {
+    font-weight: 500;
 }
 
-#navbar hr{
-    width:98%;
+#navbar hr {
+    width: 98%;
 }
 
-#navbar a{
-    text-decoration:none;
-    color:black;
+#navbar a {
+    text-decoration: none;
+    color: black;
 }
 
-#intro{
-    text-align:center;
-    font-weight:400;
-    font-size:20px;
-    margin-top:80px;
-    margin-bottom:80px;
+#intro {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-#pink{
-    color:#ec5578;
+#pink {
+    color: #ec5578;
 }
 
-.sub-info{
-    font-size:16px;
+.sub-info {
+    font-size: 16px;
 }
 
-#section1 img{
-    display:block;
-    width:90%;
-    border-radius:10px;
-    margin:0 auto;
+#section1 img {
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
-#about{
-    display:inline-block;
-    width:50%; 
-    text-align:center;
+#about {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
 
-    margin-top:40px;
+    margin-top: 40px;
 }
 
-#work{
-    display:inline-block;
-    width:50%; 
-    text-align:center;
-    margin-top:40px;
+#work {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
 }
 
-#work h1, #about h1, #thanks h1, #footer h1{
+#work h1,
+#about h1,
+#thanks h1,
+#footer h1 {
     font-family: 'Sofia', cursive;
-    color:#ec5578;
-    font-size:22px;
-    text-align:center; 
+    color: #ec5578;
+    font-size: 22px;
+    text-align: center;
 }
 
-#work p, #about p{
-    margin:20px;
-    text-align:left;
+#work p,
+#about p {
+    margin: 20px;
+    text-align: left;
 }
 
-#workgrid{
-    display:block;
-    width:90%;
-    margin:0 auto;
-    margin-top:80px;
-    margin-bottom:80px;
+#workgrid {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-#workgrid img{
-    display:inline-block;
-    width:18%;
-    margin:5px;
-    border-radius:10px;
+#workgrid img {
+    display: inline-block;
+    width: 18.835%;
+    margin: 5px;
+    border-radius: 10px;
 }
 
-#thanks{
-    margin-bottom:60px;
+#thanks {
+    margin-bottom: 60px;
 }
 
-#footer{
-    height:400px;
+#footer {
+    height: 400px;
     background-color: #404040;
-    bottom:0;
+    bottom: 0;
 }
 
-#footer h1{
-    text-align:left;
-    color:pink;
-    margin:20px;
-    padding-top:100px;
-    margin-bottom:0;
+#footer h1 {
+    text-align: left;
+    color: pink;
+    margin: 20px;
+    padding-top: 100px;
+    margin-bottom: 0;
 }
 
-#form{
-    display:inline-block;
-    width:50%;
-    height:100px;
+#form {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
 }
 
-#form input{
-    width:100%;
-    margin:20px;
-    padding:10px;
-    margin-top:0;
+#form input {
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 0;
 }
 
-#social{
-    display:inline-block;
-    width:45%;
+#social {
+    display: inline-block;
+    width: 45%;
 }
 
-#form-message{
-    display:inline-block;
-    width:100%;
+#form-message {
+    display: inline-block;
+    width: 100%;
 }
 
-input::placeholder{
-    font-size:15px;
+input::placeholder {
+    font-size: 15px;
 }
 
-#form-message input{
-    height:40px;
-    width:100%;
+#form-message input {
+    height: 40px;
+    width: 100%;
 }
 
-#footer i{
-    color:#404040;
-    margin:10px;
-    font-size:35px;
-    float:right;
+#footer i {
+    color: #404040;
+    margin: 10px;
+    font-size: 35px;
+    float: right;
     background-color: pink;
-    width:35px;
-    padding:10px;
-    text-align:center;
+    width: 35px;
+    padding: 10px;
+    text-align: center;
 }
 
-.fab{
-    border-radius:50%;
+.fab {
+    border-radius: 50%;
 }
 
-button{
+button {
     background-color: transparent;
-    margin:0;
-    border:none;
-    color:white;
-    font-size:19px;
-    padding:0;
-    position:relative;
-    top:-14px;
-    left:50px;
+    margin: 0;
+    border: none;
+    color: white;
+    font-size: 19px;
+    padding: 0;
+    position: relative;
+    top: -14px;
+    left: 50px;
 }
 
 
 /*Alternat navbar*/
-#alt-navbar{
-    display:none;
+
+#alt-navbar {
+    display: none;
 }
 
 
-#alt-navbar{
-    margin-top:40px;
+#alt-navbar {
+    margin-top: 40px;
 }
 
-#alt-navbar img{
-    width:50px;
-    margin:10px;
-    display:inline-block;
+#alt-navbar img {
+    width: 50px;
+    margin: 10px;
+    display: inline-block;
 }
 
-#alt-navbar ul li{
-    display:inline;
-    text-transform:uppercase;
-    margin-left:5rem;
-    position:relative;
-    top:5px;
+#alt-navbar ul li {
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 5rem;
+    position: relative;
+    top: 5px;
 }
 
-#alt-navbar h1{
-    position:relative;
-    display:inline-block;
-    font-size:24px;
-    margin:0;
-    top:-20px;
+#alt-navbar h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    top: -20px;
     font-family: 'Sofia', cursive;
 }
 
-#alt-navbar ul{
-    float:right;
+#alt-navbar ul {
+    float: right;
 }
 
 
-#alt-navbar hr{
-    width:98%;
+#alt-navbar hr {
+    width: 98%;
 }
 
-#alt-navbar a{
-    text-decoration:none;
-    color:black;
+#alt-navbar a {
+    text-decoration: none;
+    color: black;
 }
 
-#alt-navbar ul li:last-child{
-    margin-right:20px;
+#alt-navbar ul li:last-child {
+    margin-right: 20px;
 }
 
-#alt-navbar .fas{
-    font-size:45px;    
-    color:pink;
+#alt-navbar .fas {
+    font-size: 45px;
+    color: pink;
 }
 
 /*You can do height and width for buttons and probably forms?*/
 
-@media (max-width:725px){
-    #workgrid img{
-        width:35%;
-    }
-    
-    #workgrid img{
-        margin-left:10%;
+@media (max-width:725px) {
+    #workgrid img {
+        width: 35%;
     }
 
-    #navbar{
-        display:none;
+    #workgrid img {
+        margin-left: 10%;
     }
-    
-    #alt-navbar{
-        display:block;
+
+    #navbar {
+        display: none;
     }
-    
-    #social{
-        margin-left:3%;
-        padding-bottom:11%;
+
+    #alt-navbar {
+        display: block;
+    }
+
+    #social {
+        margin-left: 3%;
+        padding-bottom: 11%;
     }
 }
 
-@media (max-width:390px){
-    #social{
-    margin-left:4.9%;
-    }    
+@media (max-width:390px) {
+    #social {
+        margin-left: 4.9%;
+    }
 }
